@@ -15,7 +15,6 @@ int main(){
     }
     //vypis prvkov pola v opacnom poradi
     //n-1 = posledny element pola, preto zaciname od n-1 
-    //akonahle i sa stane 0 (indexom prveho elementa) cyklus sa ukonci
     for (i = n-1; i>=0; i--){
         printf("%d ", pole[i]);
     }

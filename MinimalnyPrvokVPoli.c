@@ -28,6 +28,6 @@ int main () {
             indexmin = i; //tu zoberie index tohto prvku, aby sme urcili poradie daneho elementa
         }
     }
-    printf("minalny element %d s indexom %d\n", minimum, indexmin);
+    printf("minimalny element je %d s indexom %d\n", minimum, indexmin);
     return 0;
 }

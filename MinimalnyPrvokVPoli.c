@@ -20,7 +20,7 @@ int main () {
     indexmin = 0;
     
     //kontrolujeme vsetky ostatne prvky
-    //ak sa zisti, ze jeden z ostatnych prvkov menej, ako ten predosly v premenej MINIMUM, tak teda ten prvok sa stane novym MINIMUM
+    //ak sa zisti, ze jeden z ostatnych prvkov je mensi, ako ten predosly v premenej MINIMUM, tak teda ten prvok sa stane novym MINIMUM
     //napriklad prvy element je 5[0], druhy element je 2[1], po kontrole IF druhy element bude novym minimalnym
     for (i=1; i<n; i++){
         if(pole[i] < pole[indexmin]){

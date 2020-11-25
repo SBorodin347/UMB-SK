@@ -4,13 +4,13 @@ int main () {
     
     //pocet prvkov v poli
     int n;
-    printf("zadaj kol-vo elementov n: ");
+    printf("zadaj pocet elementov n: ");
     scanf("%d", &n);
     int pole[n];
     //zadavame prvky pola
     int i;
     for(i=0; i<n; i++) {
-        printf("zadaj element masiva: ");
+        printf("zadaj element pola: ");
         scanf("%d", &pole[i]);
     }
     //hladame minimalny prvok v poli a jeho index

@@ -24,7 +24,7 @@ int main () {
     //napriklad prvy element je 5[0], druhy element je 2[1], po kontrole IF druhy element bude novym minimalnym
     for (i=1; i<n; i++){
         if(masiv[i] < masiv[indexmin]){
-            minimum = masiv[i];  //ak podmnienka hore najde novy minimalny, tak ona prirady tento prvok do premenej MINIMUM
+            minimum = masiv[i];  //ak podmnienka hore najde novy minimalny, tak ona priradi tento prvok do premenej MINIMUM
             indexmin = i; //tu zoberie index tohto prvku, aby sme urcili poradie daneho elementa
         }
     }

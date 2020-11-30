@@ -12,4 +12,6 @@ _MinimalnyPrvokVPoli.c  -  nájde minimálny prvok v zadanom poli a jeho index
 
 _MaximalnyPrvokVPoli.c  -  nájde maximálny prvok v zadanom poli a jeho index
 
-_AritmitickyPriemerPola.c  -  Hladame aritmiticky priemer pola(float)
+_AritmitickyPriemerPola.c  -  hladame aritmiticky priemer pola(float)
+
+_Maximum+MinimumMatice.c  -  nájde maximálny a minimálny prvok v matici

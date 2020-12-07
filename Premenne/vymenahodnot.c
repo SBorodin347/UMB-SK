@@ -1,3 +1,5 @@
+/*Tento algoritmus vymení hodnoty bez použitia tretej premennej*/
+
 int main(){
     int a,b;
     printf ("a = ");

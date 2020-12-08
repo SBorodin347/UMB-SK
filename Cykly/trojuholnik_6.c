@@ -17,12 +17,12 @@ int main (){
     printf("zadaj cislo riadkov: ");
     scanf("%d", &riadok);
     
-    for (i=0; i<riadok; i++){
-        for (j = 0; j<i; j++) {
-            putchar(' ');
+    for (i=0; i<riadok; i++){ //pocet riadkov
+        for (j = 0; j<i; j++) { //pocet odstupov
+            putchar(' '); 
         }
-        for (j = 0; j<riadok*2-(i*2)-1; j++) {
-            putchar('*');
+        for (j = 0; j<riadok*2-(i*2)-1; j++) { //pocet hviezd
+            putchar('*'); 
         }
         putchar('\n');
     }

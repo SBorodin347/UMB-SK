@@ -1,4 +1,5 @@
-/*Tento algoritmus načíta n celých čísel a zistí hodnotu a poradové číslo najväčšieho zadaného čísla. Výsledok (najväčšie číslo a jeho poradové číslo) vypíše na obrazovku*/
+/*Tento algoritmus načíta n celých čísel a zistí hodnotu a poradové číslo najväčšieho zadaného čísla. 
+Výsledok (najväčšie číslo a jeho poradové číslo) vypíše na obrazovku*/
 
 
 int main (){
